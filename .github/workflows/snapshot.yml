@@ -17,9 +17,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
-      - run: npm ci
+      - name: Install ethers
+        run: npm install ethers@^6 --no-audit --no-fund
 
       - name: Fetch portfolio snapshot
         run: node scripts/snapshot.mjs
