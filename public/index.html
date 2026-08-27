@@ -60,8 +60,9 @@
 async function load() {
   const content = document.getElementById('content');
   try {
-    const res = await fetch('/api/portfolio');
-    if (!res.ok) throw new Error('API error ' + res.status);
+    // Static site: fetch the committed data.json (snapshot updated by GitHub Action)
+    const res = await fetch('./data.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('data.json missing — run the snapshot workflow');
     const data = await res.json();
     render(data);
   } catch (e) {
