@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Portfolio Tracker</title>
+<style>
+  :root {
+    --bg: #0f1117; --card: #171a23; --card2: #1d2130; --border: #2a2f42;
+    --text: #e8eaf0; --muted: #9aa3b5; --accent: #6c8cff; --green: #4ade80;
+    --red: #f87171; --amber: #fbbf24;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; padding: 32px 16px; }
+  .wrap { max-width: 1000px; margin: 0 auto; }
+  header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+  h1 { font-size: 24px; letter-spacing: -0.02em; }
+  .total { font-size: 34px; font-weight: 800; color: var(--green); }
+  .sub { color: var(--muted); font-size: 13px; }
+  .kpi { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0 24px; }
+  .kpi div { flex: 1; min-width: 160px; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .kpi .v { font-size: 20px; font-weight: 700; }
+  .kpi .l { font-size: 12px; color: var(--muted); }
+  .chain { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin-bottom: 16px; }
+  .chain h2 { font-size: 17px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+  .chain h2 .val { color: var(--green); font-size: 16px; }
+  .wallet { background: var(--card2); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin: 8px 0; }
+  .wallet .whead { display: flex; justify-content: space-between; font-weight: 600; margin-bottom: 6px; }
+  .wallet .whead .sub { font-weight: 400; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th { text-align: left; color: var(--muted); font-weight: 500; padding: 4px 8px; border-bottom: 1px solid var(--border); }
+  td { padding: 5px 8px; border-bottom: 1px solid var(--border); }
+  .pos { color: var(--green); } .neg { color: var(--red); }
+  .load { text-align: center; color: var(--muted); padding: 40px; }
+  .err { background: rgba(248,113,113,.1); border: 1px solid var(--red); color: var(--red); padding: 12px; border-radius: 8px; margin: 16px 0; }
+  .refresh { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 8px 16px; cursor: pointer; font-weight: 600; font-size: 13px; }
+  .refresh:hover { opacity: .85; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>📊 Crypto Portfolio</h1>
+      <div class="sub" id="updated"></div>
+    </div>
+    <button class="refresh" onclick="load()">↻ Refresh</button>
+  </header>
+
+  <div class="kpi">
+    <div><div class="v" id="total">—</div><div class="l">Total Value (USD)</div></div>
+    <div><div class="v" id="chainCount">—</div><div class="l">Chains</div></div>
+    <div><div class="v" id="tokenCount">—</div><div class="l">Tokens</div></div>
+  </div>
+
+  <div id="content"><div class="load">Loading portfolio…</div></div>
+</div>
+
+<script>
+async function load() {
+  const content = document.getElementById('content');
+  try {
+    const res = await fetch('/api/portfolio');
+    if (!res.ok) throw new Error('API error ' + res.status);
+    const data = await res.json();
+    render(data);
+  } catch (e) {
+    content.innerHTML = `<div class="err">Failed to load: ${e.message}</div>`;
+  }
+}
+
+function fmtUSD(v) {
+  if (v >= 1000) return '$' + v.toLocaleString(undefined, { maximumFractionDigits: 0 });
+  return '$' + v.toFixed(2);
+}
+function fmtAmt(a) {
+  if (a >= 1e6) return (a / 1e6).toFixed(2) + 'M';
+  if (a >= 1e3) return (a / 1e3).toFixed(1) + 'K';
+  return a.toFixed(2);
+}
+
+function render(data) {
+  document.getElementById('total').textContent = fmtUSD(data.totalUsd);
+  document.getElementById('updated').textContent = 'Updated ' + new Date(data.generatedAt).toLocaleTimeString();
+  const chains = data.byChain || [];
+  document.getElementById('chainCount').textContent = chains.length;
+  let tokens = 0;
+  for (const c of chains) for (const w of c.wallets || []) tokens += (w.tokens || []).length;
+  document.getElementById('tokenCount').textContent = tokens;
+  const content = document.getElementById('content');
+  if (!chains.length) { content.innerHTML = '<div class="load">No holdings found.</div>'; return; }
+  content.innerHTML = chains.map(c => {
+    const pct = data.totalUsd > 0 ? (c.valueUsd / data.totalUsd * 100).toFixed(1) : 0;
+    const wallets = (c.wallets || []).map(w => {
+      const tokenRows = (w.tokens || []).map(t => `
+        <tr><td>${t.symbol}</td><td>${fmtAmt(t.amount)}</td><td>$${t.price.toFixed(6)}</td><td class="pos">${fmtUSD(t.valueUsd)}</td></tr>`).join('');
+      return `
+        <div class="wallet">
+          <div class="whead"><span>👤 ${w.wallet}</span><span class="sub">${fmtUSD(w.valueUsd)}</span></div>
+          <table><thead><tr><th>Token</th><th>Amount</th><th>Price</th><th>Value</th></tr></thead>
+          <tbody>${tokenRows}</tbody></table>
+        </div>`;
+    }).join('');
+    return `
+      <div class="chain">
+        <h2><span>⛓ ${c.chain} <span class="sub">${pct}%</span></span><span class="val">${fmtUSD(c.valueUsd)}</span></h2>
+        ${wallets}
+      </div>`;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
