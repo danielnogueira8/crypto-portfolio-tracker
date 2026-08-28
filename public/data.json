@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-28T12:39:17.712Z",
-  "totalUsd": 156085.47339114954,
+  "generatedAt": "2026-08-28T22:59:28.242Z",
+  "totalUsd": 167831.5684957882,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 37674.35059405447,
+      "valueUsd": 25396.025970396306,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 37674.35059405447,
+          "valueUsd": 25396.025970396306,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 19520388.908836514,
-              "price": 0.00193,
-              "valueUsd": 37674.35059405447
+              "price": 0.001301,
+              "valueUsd": 25396.025970396306
             }
           ]
         }
@@ -24,19 +24,54 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 118411.12279709506,
+      "valueUsd": 142435.5425253919,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 118411.12279709506,
+          "valueUsd": 108360.33387687369,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6820.77,
-              "valueUsd": 118411.12279709506
+              "price": 6241.82,
+              "valueUsd": 108360.33387687369
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 34075.20864851822,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "AAPLCAT",
+              "address": "0x73a9999f6e9db138e1ae4595fde049a401161e18",
+              "amount": 13697112.444530204,
+              "price": 0.0005504,
+              "valueUsd": 7538.890689469425
+            },
+            {
+              "symbol": "DON",
+              "address": "0x0b551573d731090b3f57129c11b0a4a9e4d0a69c",
+              "amount": 26679588.079971086,
+              "price": 0.0001281,
+              "valueUsd": 3417.655233044296
+            },
+            {
+              "symbol": "VYNEX",
+              "address": "0x8cf33e3026604bd85677e7bc6e04d256571b6653",
+              "amount": 20008681.1198498,
+              "price": 0.001102,
+              "valueUsd": 22049.56659407448
+            },
+            {
+              "symbol": "LLM",
+              "address": "0x388e4069f5484fe61d6737a4d8daa217f4071e18",
+              "amount": 12943052.44467341,
+              "price": 0.0000826,
+              "valueUsd": 1069.0961319300236
             }
           ]
         }
