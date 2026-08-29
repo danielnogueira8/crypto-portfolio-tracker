@@ -1,22 +1,29 @@
 {
-  "generatedAt": "2026-08-28T22:59:28.242Z",
-  "totalUsd": 167831.5684957882,
+  "generatedAt": "2026-08-29T04:08:02.074Z",
+  "totalUsd": 177132.16996336373,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 25396.025970396306,
+      "valueUsd": 57308.55657210125,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 25396.025970396306,
+          "valueUsd": 57308.55657210125,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 19520388.908836514,
-              "price": 0.001301,
-              "valueUsd": 25396.025970396306
+              "price": 0.00165,
+              "valueUsd": 32208.641699580246
+            },
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.001055,
+              "valueUsd": 25099.914872521003
             }
           ]
         }
@@ -24,54 +31,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 142435.5425253919,
+      "valueUsd": 119823.6133912625,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 108360.33387687369,
+          "valueUsd": 119149.11232468569,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6241.82,
-              "valueUsd": 108360.33387687369
+              "price": 6863.28,
+              "valueUsd": 119149.11232468569
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 34075.20864851822,
+          "valueUsd": 674.5010665768032,
           "native": 0,
           "tokens": [
             {
-              "symbol": "AAPLCAT",
-              "address": "0x73a9999f6e9db138e1ae4595fde049a401161e18",
-              "amount": 13697112.444530204,
-              "price": 0.0005504,
-              "valueUsd": 7538.890689469425
+              "symbol": "NVDA",
+              "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+              "amount": 1.6994931440969507,
+              "price": 218.65,
+              "valueUsd": 371.59417595679827
             },
             {
-              "symbol": "DON",
-              "address": "0x0b551573d731090b3f57129c11b0a4a9e4d0a69c",
-              "amount": 26679588.079971086,
-              "price": 0.0001281,
-              "valueUsd": 3417.655233044296
-            },
-            {
-              "symbol": "VYNEX",
-              "address": "0x8cf33e3026604bd85677e7bc6e04d256571b6653",
-              "amount": 20008681.1198498,
-              "price": 0.001102,
-              "valueUsd": 22049.56659407448
-            },
-            {
-              "symbol": "LLM",
-              "address": "0x388e4069f5484fe61d6737a4d8daa217f4071e18",
-              "amount": 12943052.44467341,
-              "price": 0.0000826,
-              "valueUsd": 1069.0961319300236
+              "symbol": "BB",
+              "address": "0x48e39e56acdba37b09020c0b734a613c9a2f100a",
+              "amount": 33.844345320670946,
+              "price": 8.95,
+              "valueUsd": 302.90689062000496
             }
           ]
         }
