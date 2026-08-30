@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-30T00:04:16.894Z",
-  "totalUsd": 242711.06956771674,
+  "generatedAt": "2026-08-30T05:43:08.473Z",
+  "totalUsd": 230419.47757851958,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 32774.7329779365,
+      "valueUsd": 42710.61093253429,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 32774.7329779365,
+          "valueUsd": 42710.61093253429,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 19520388.908836514,
-              "price": 0.001679,
-              "valueUsd": 32774.7329779365
+              "price": 0.002188,
+              "valueUsd": 42710.61093253429
             }
           ]
         }
@@ -24,40 +24,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 209936.33658978023,
+      "valueUsd": 187708.86664598528,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 156241.0881294294,
+          "valueUsd": 156760.88487728464,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 8594.079,
-              "valueUsd": 149196.43145816904
-            },
-            {
-              "symbol": "PAIR",
-              "address": "0x6b1d42927b1a84ec28fa88d4fc6fa7af404966be",
-              "amount": 1805396.3791031193,
-              "price": 0.003902,
-              "valueUsd": 7044.656671260372
+              "price": 9029.81,
+              "valueUsd": 156760.88487728464
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 53695.24846035082,
+          "valueUsd": 30947.981768700636,
           "native": 0,
           "tokens": [
             {
-              "symbol": "PAIR",
-              "address": "0x6b1d42927b1a84ec28fa88d4fc6fa7af404966be",
-              "amount": 13760955.525461512,
-              "price": 0.003902,
-              "valueUsd": 53695.24846035082
+              "symbol": "VYNEX",
+              "address": "0x8cf33e3026604bd85677e7bc6e04d256571b6653",
+              "amount": 14522233.193100687,
+              "price": 0.00211,
+              "valueUsd": 30641.91203744245
+            },
+            {
+              "symbol": "NVDA",
+              "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+              "amount": 1.3969918174017604,
+              "price": 219.092,
+              "valueUsd": 306.0697312581865
             }
           ]
         }
