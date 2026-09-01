@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-01T17:17:53.746Z",
-  "totalUsd": 267079.5117057953,
+  "generatedAt": "2026-09-01T20:08:10.673Z",
+  "totalUsd": 162625.00799231822,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 56706.72978017007,
+      "valueUsd": 49288.981994812195,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 56706.72978017007,
+          "valueUsd": 49288.981994812195,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 19520388.908836514,
-              "price": 0.002905,
-              "valueUsd": 56706.72978017007
+              "price": 0.002525,
+              "valueUsd": 49288.981994812195
             }
           ]
         }
@@ -24,40 +24,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 210372.78192562523,
+      "valueUsd": 113336.02599750603,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 96418.82655039738,
+          "valueUsd": 108178.9179614815,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5553.96,
-              "valueUsd": 96418.82655039738
+              "price": 6231.37,
+              "valueUsd": 108178.9179614815
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 113953.95537522783,
+          "valueUsd": 5157.108036024533,
           "native": 0,
           "tokens": [
             {
-              "symbol": "UBIK",
-              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
-              "amount": 17729041.21487739,
-              "price": 0.005706,
-              "valueUsd": 101161.90917209038
-            },
-            {
-              "symbol": "NAV",
-              "address": "0x3e7f2c3a81a1c8302eace254928e0fba5a3bc447",
-              "amount": 16726001.834646236,
-              "price": 0.0007648,
-              "valueUsd": 12792.046203137443
+              "symbol": "CRIBS",
+              "address": "0xbbd8b63db2b92a4c3f46232d0959ebc13247b881",
+              "amount": 15956398.62631353,
+              "price": 0.0003232,
+              "valueUsd": 5157.108036024533
             }
           ]
         }
