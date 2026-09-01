@@ -1,29 +1,22 @@
 {
-  "generatedAt": "2026-09-01T12:30:51.206Z",
-  "totalUsd": 190188.36548294104,
+  "generatedAt": "2026-09-01T17:17:53.746Z",
+  "totalUsd": 267079.5117057953,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 79551.21846695855,
+      "valueUsd": 56706.72978017007,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 79551.21846695855,
+          "valueUsd": 56706.72978017007,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 19520388.908836514,
-              "price": 0.003071,
-              "valueUsd": 59947.11433903693
-            },
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.000824,
-              "valueUsd": 19604.104127921615
+              "price": 0.002905,
+              "valueUsd": 56706.72978017007
             }
           ]
         }
@@ -31,19 +24,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 110637.14701598248,
+      "valueUsd": 210372.78192562523,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 110637.14701598248,
+          "valueUsd": 96418.82655039738,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6372.97,
-              "valueUsd": 110637.14701598248
+              "price": 5553.96,
+              "valueUsd": 96418.82655039738
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 113953.95537522783,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "UBIK",
+              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
+              "amount": 17729041.21487739,
+              "price": 0.005706,
+              "valueUsd": 101161.90917209038
+            },
+            {
+              "symbol": "NAV",
+              "address": "0x3e7f2c3a81a1c8302eace254928e0fba5a3bc447",
+              "amount": 16726001.834646236,
+              "price": 0.0007648,
+              "valueUsd": 12792.046203137443
             }
           ]
         }
