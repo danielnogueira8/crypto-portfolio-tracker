@@ -1,36 +1,22 @@
 {
-  "generatedAt": "2026-09-03T20:54:11.069Z",
-  "totalUsd": 165547.38375398674,
+  "generatedAt": "2026-09-03T23:11:47.969Z",
+  "totalUsd": 89352.80684868136,
   "byChain": [
     {
       "chain": "robinhood",
-      "valueUsd": 165547.38375398674,
+      "valueUsd": 89352.80684868136,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 165547.38375398674,
+          "valueUsd": 89352.80684868136,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5655.065,
-              "valueUsd": 98174.04723228524
-            },
-            {
-              "symbol": "SHERWOOD",
-              "address": "0xbe54596a4e5004ef80f57eaae9c7eee6b7646ebb",
-              "amount": 5703823.518451582,
-              "price": 0.001081,
-              "valueUsd": 6165.8332234461595
-            },
-            {
-              "symbol": "PICKLES",
-              "address": "0xd39c5ed5231c86d2df7c86c5825dec3e61d937a8",
-              "amount": 43876346.45036226,
-              "price": 0.001395,
-              "valueUsd": 61207.503298255346
+              "price": 5146.94,
+              "valueUsd": 89352.80684868136
             }
           ]
         }
