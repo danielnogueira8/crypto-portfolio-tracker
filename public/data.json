@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-04T06:28:51.113Z",
-  "totalUsd": 105379.06326323841,
+  "generatedAt": "2026-09-04T11:42:06.465Z",
+  "totalUsd": 125067.8721717271,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 18243.236705449388,
+      "valueUsd": 18312.231732113192,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 18243.236705449388,
+          "valueUsd": 18312.231732113192,
           "native": 0,
           "tokens": [
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0007668,
-              "valueUsd": 18243.236705449388
+              "price": 0.0007697,
+              "valueUsd": 18312.231732113192
             }
           ]
         }
@@ -24,33 +24,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 87135.82655778903,
+      "valueUsd": 106755.6404396139,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 86868.01642092201,
+          "valueUsd": 85559.39137764316,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5003.81,
-              "valueUsd": 86868.01642092201
+              "price": 4928.43,
+              "valueUsd": 85559.39137764316
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 267.81013686701573,
+          "valueUsd": 21196.24906197073,
           "native": 0,
           "tokens": [
             {
               "symbol": "NVDA",
               "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
-              "amount": 1.1627236437590227,
-              "price": 230.33,
-              "valueUsd": 267.81013686701573
+              "amount": 2.012994137020816,
+              "price": 231.17,
+              "valueUsd": 465.343854655102
+            },
+            {
+              "symbol": "PLUTOCOIN",
+              "address": "0x39d7e739366777b372297e03c92d69205d5bdb4e",
+              "amount": 18609430.168146886,
+              "price": 0.001114,
+              "valueUsd": 20730.90520731563
             }
           ]
         }
