@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-04T19:05:25.611Z",
-  "totalUsd": 124008.29297805318,
+  "generatedAt": "2026-09-04T21:44:14.637Z",
+  "totalUsd": 182671.27263118298,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 24790.626821959133,
+      "valueUsd": 34307.18222386283,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 24790.626821959133,
+          "valueUsd": 34307.18222386283,
           "native": 0,
           "tokens": [
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.001042,
-              "valueUsd": 24790.626821959133
+              "price": 0.001442,
+              "valueUsd": 34307.18222386283
             }
           ]
         }
@@ -24,19 +24,47 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 99217.66615609406,
+      "valueUsd": 148364.09040732015,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 99217.66615609406,
+          "valueUsd": 111852.37324349003,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5715.18,
-              "valueUsd": 99217.66615609406
+              "price": 6442.97,
+              "valueUsd": 111852.37324349003
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 36511.71716383012,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "Viagra",
+              "address": "0x48dd1b2058b0fdb1e21ce2f46c9d52079c6bf311",
+              "amount": 23907647.615067832,
+              "price": 0.0001563,
+              "valueUsd": 3736.7653222351023
+            },
+            {
+              "symbol": "par",
+              "address": "0x507b6f349a80114097a67b8b4677367acc15b220",
+              "amount": 13776738.731463071,
+              "price": 0.002074,
+              "valueUsd": 28572.956129054408
+            },
+            {
+              "symbol": "SPCSEX",
+              "address": "0x0ae2e697692767d12f9c592fe0c41842cddf6eac",
+              "amount": 16356542.283147562,
+              "price": 0.0002569,
+              "valueUsd": 4201.995712540609
             }
           ]
         }
