@@ -1,36 +1,29 @@
 {
-  "generatedAt": "2026-09-05T08:32:08.404Z",
-  "totalUsd": 98043.63764082754,
+  "generatedAt": "2026-09-05T12:34:17.940Z",
+  "totalUsd": 96198.93055598445,
   "byChain": [
     {
       "chain": "robinhood",
-      "valueUsd": 98043.63764082754,
+      "valueUsd": 96198.93055598445,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 97730.92366861197,
+          "valueUsd": 96198.93055598445,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5629.54,
-              "valueUsd": 97730.92366861197
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 312.7139722155699,
-          "native": 0,
-          "tokens": [
+              "price": 5526.2,
+              "valueUsd": 95936.90254931725
+            },
             {
-              "symbol": "NVDA",
-              "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
-              "amount": 1.3560883443866867,
-              "price": 230.6,
-              "valueUsd": 312.7139722155699
+              "symbol": "CRCL",
+              "address": "0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5",
+              "amount": 2.572180295152615,
+              "price": 101.87,
+              "valueUsd": 262.0280066671969
             }
           ]
         }
