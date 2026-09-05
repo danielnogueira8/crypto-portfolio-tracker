@@ -1,49 +1,36 @@
 {
-  "generatedAt": "2026-09-05T04:08:29.114Z",
-  "totalUsd": 127534.39157658743,
+  "generatedAt": "2026-09-05T08:32:08.404Z",
+  "totalUsd": 98043.63764082754,
   "byChain": [
     {
-      "chain": "base",
-      "valueUsd": 23957.928224292562,
-      "wallets": [
-        {
-          "wallet": "Brian",
-          "valueUsd": 23957.928224292562,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.001007,
-              "valueUsd": 23957.928224292562
-            }
-          ]
-        }
-      ]
-    },
-    {
       "chain": "robinhood",
-      "valueUsd": 103576.46335229486,
+      "valueUsd": 98043.63764082754,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 103576.46335229486,
+          "valueUsd": 97730.92366861197,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5954.047,
-              "valueUsd": 103364.48677446612
-            },
+              "price": 5629.54,
+              "valueUsd": 97730.92366861197
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 312.7139722155699,
+          "native": 0,
+          "tokens": [
             {
-              "symbol": "CRCL",
-              "address": "0xdf0992e440dd0be65bd8439b609d6d4366bf1cb5",
-              "amount": 2.084127203114162,
-              "price": 101.71,
-              "valueUsd": 211.9765778287414
+              "symbol": "NVDA",
+              "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
+              "amount": 1.3560883443866867,
+              "price": 230.6,
+              "valueUsd": 312.7139722155699
             }
           ]
         }
