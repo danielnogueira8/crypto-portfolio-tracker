@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-10T10:00:10.457Z",
-  "totalUsd": 150315.54134638177,
+  "generatedAt": "2026-09-10T14:21:19.505Z",
+  "totalUsd": 7428995368.635307,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 23573.00113724177,
+      "valueUsd": 21062.689103402223,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 23573.00113724177,
+          "valueUsd": 21062.689103402223,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 2545955.409573579,
-              "price": 0.009259,
-              "valueUsd": 23573.00113724177
+              "price": 0.008273,
+              "valueUsd": 21062.689103402223
             }
           ]
         }
@@ -24,19 +24,47 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 126742.54020914,
+      "valueUsd": 7428974305.946203,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 126742.54020914,
+          "valueUsd": 132396.98784573263,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 7300.68,
-              "valueUsd": 126742.54020914
+              "price": 7626.39,
+              "valueUsd": 132396.98784573263
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 7428841908.958358,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "DARK",
+              "address": "0xebb4c5b97e4117e30ec82ce025e6f21dded05436",
+              "amount": 13517082.173772024,
+              "price": 0.00245,
+              "valueUsd": 33116.85132574146
+            },
+            {
+              "symbol": "microduck",
+              "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
+              "amount": 14565605.151886852,
+              "price": 0.009614,
+              "valueUsd": 140033.7279302402
+            },
+            {
+              "symbol": "UBIK",
+              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
+              "amount": 18546633.94012858,
+              "price": 400.54,
+              "valueUsd": 7428668758.379102
             }
           ]
         }
