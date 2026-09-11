@@ -1,56 +1,22 @@
 {
-  "generatedAt": "2026-09-11T06:34:43.192Z",
-  "totalUsd": 136425.42099853203,
+  "generatedAt": "2026-09-11T12:09:29.004Z",
+  "totalUsd": 120274.93262259805,
   "byChain": [
     {
-      "chain": "base",
-      "valueUsd": 12262.081635352914,
-      "wallets": [
-        {
-          "wallet": "Brian",
-          "valueUsd": 12262.081635352914,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.0005154,
-              "valueUsd": 12262.081635352914
-            }
-          ]
-        }
-      ]
-    },
-    {
       "chain": "robinhood",
-      "valueUsd": 124163.33936317911,
+      "valueUsd": 120274.93262259805,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 123906.20219413738,
+          "valueUsd": 120274.93262259805,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 7137.3,
-              "valueUsd": 123906.20219413738
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 257.1371690417267,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "NVDA",
-              "address": "0xd0601ce157db5bdc3162bbac2a2c8af5320d9eec",
-              "amount": 1.1710409374338586,
-              "price": 219.58,
-              "valueUsd": 257.1371690417267
+              "price": 6928.13,
+              "valueUsd": 120274.93262259805
             }
           ]
         }
