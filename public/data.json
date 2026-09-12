@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-12T00:32:44.754Z",
-  "totalUsd": 127653.66760397171,
+  "generatedAt": "2026-09-12T05:35:11.679Z",
+  "totalUsd": 167174.71493739783,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 10556.239079561677,
+      "valueUsd": 10822.70263081498,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 10556.239079561677,
+          "valueUsd": 10822.70263081498,
           "native": 0,
           "tokens": [
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0004437,
-              "valueUsd": 10556.239079561677
+              "price": 0.0004549,
+              "valueUsd": 10822.70263081498
             }
           ]
         }
@@ -24,19 +24,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 117097.42852441003,
+      "valueUsd": 156352.01230658285,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 117097.42852441003,
+          "valueUsd": 118918.39294520604,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6745.098,
-              "valueUsd": 117097.42852441003
+              "price": 6849.99,
+              "valueUsd": 118918.39294520604
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 37433.61936137681,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "microduck",
+              "address": "0xd5f1afea47b1a9eab414d2ee740cf1d6d039e725",
+              "amount": 6147745.009258796,
+              "price": 0.006089,
+              "valueUsd": 37433.61936137681
             }
           ]
         }
