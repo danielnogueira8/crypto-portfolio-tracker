@@ -1,50 +1,42 @@
 {
-  "generatedAt": "2026-09-11T22:26:24.394Z",
-  "totalUsd": 692949.8435938237,
+  "generatedAt": "2026-09-12T00:32:44.754Z",
+  "totalUsd": 127653.66760397171,
   "byChain": [
     {
-      "chain": "robinhood",
-      "valueUsd": 692949.8435938237,
+      "chain": "base",
+      "valueUsd": 10556.239079561677,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 123353.10065687465,
+          "valueUsd": 10556.239079561677,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0004437,
+              "valueUsd": 10556.239079561677
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "valueUsd": 117097.42852441003,
+      "wallets": [
+        {
+          "wallet": "Brian",
+          "valueUsd": 117097.42852441003,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 7105.44,
-              "valueUsd": 123353.10065687465
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 569596.7429369491,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "NEXA",
-              "address": "0xbecbd6840d2a5ba5e0bcd1ab3ddb3f40a21c83f9",
-              "amount": 1198834195.5106523,
-              "price": 0.000001357,
-              "valueUsd": 1626.8180033079552
-            },
-            {
-              "symbol": "AGI",
-              "address": "0x5a8625d314fdd298101d87932a784b756a401e18",
-              "amount": 12880024.423479758,
-              "price": 0.001241,
-              "valueUsd": 15984.110309538379
-            },
-            {
-              "symbol": "UBIK",
-              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
-              "amount": 19166174.118892457,
-              "price": 0.0288,
-              "valueUsd": 551985.8146241028
+              "price": 6745.098,
+              "valueUsd": 117097.42852441003
             }
           ]
         }
