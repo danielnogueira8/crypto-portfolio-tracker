@@ -1,22 +1,63 @@
 {
-  "generatedAt": "2026-09-12T10:33:59.727Z",
-  "totalUsd": 113378.52378149272,
+  "generatedAt": "2026-09-12T13:59:21.424Z",
+  "totalUsd": 153428.11778252403,
   "byChain": [
     {
-      "chain": "robinhood",
-      "valueUsd": 113378.52378149272,
+      "chain": "base",
+      "valueUsd": 10570.513912664534,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 113378.52378149272,
+          "valueUsd": 10570.513912664534,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0004443,
+              "valueUsd": 10570.513912664534
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "valueUsd": 142857.60386985948,
+      "wallets": [
+        {
+          "wallet": "Brian",
+          "valueUsd": 119138.86970362527,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6530.88,
-              "valueUsd": 113378.52378149272
+              "price": 6862.69,
+              "valueUsd": 119138.86970362527
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 23718.734166234222,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "AGI",
+              "address": "0x5a8625d314fdd298101d87932a784b756a401e18",
+              "amount": 11592021.981131783,
+              "price": 0.001277,
+              "valueUsd": 14803.012069905286
+            },
+            {
+              "symbol": "FUEL",
+              "address": "0x6547911e5b8f3cfa9e6bca37ddde3009e83faa2d",
+              "amount": 18679493.183173973,
+              "price": 0.0004773,
+              "valueUsd": 8915.722096328938
             }
           ]
         }
