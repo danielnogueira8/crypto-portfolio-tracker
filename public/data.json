@@ -1,43 +1,42 @@
 {
-  "generatedAt": "2026-09-14T19:33:52.323Z",
-  "totalUsd": 112172.93156458833,
+  "generatedAt": "2026-09-14T23:03:31.479Z",
+  "totalUsd": 111220.61374534453,
   "byChain": [
     {
-      "chain": "robinhood",
-      "valueUsd": 112172.93156458833,
+      "chain": "base",
+      "valueUsd": 9530.830235006553,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 107896.81187295295,
+          "valueUsd": 9530.830235006553,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0004006,
+              "valueUsd": 9530.830235006553
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "valueUsd": 101689.78351033798,
+      "wallets": [
+        {
+          "wallet": "Brian",
+          "valueUsd": 101689.78351033798,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6215.12,
-              "valueUsd": 107896.81187295295
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 4276.119691635376,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "WEB",
-              "address": "0x313d223b96cc89712e5c7dbb99b8a9a572063dc0",
-              "amount": 975114968.7757559,
-              "price": 7.64e-7,
-              "valueUsd": 744.9878361446775
-            },
-            {
-              "symbol": "FUEL",
-              "address": "0x6547911e5b8f3cfa9e6bca37ddde3009e83faa2d",
-              "amount": 15834671.997716134,
-              "price": 0.000223,
-              "valueUsd": 3531.131855490698
+              "price": 5857.58,
+              "valueUsd": 101689.78351033798
             }
           ]
         }
