@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-15T01:49:02.055Z",
-  "totalUsd": 100815.17204717253,
+  "generatedAt": "2026-09-15T07:42:25.259Z",
+  "totalUsd": 111850.36876677451,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 9597.44612281988,
+      "valueUsd": 8897.979300779956,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 9597.44612281988,
+          "valueUsd": 8897.979300779956,
           "native": 0,
           "tokens": [
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0004034,
-              "valueUsd": 9597.44612281988
+              "price": 0.000374,
+              "valueUsd": 8897.979300779956
             }
           ]
         }
@@ -24,33 +24,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 91217.72592435265,
+      "valueUsd": 102952.38946599455,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 90999.61199070088,
+          "valueUsd": 102701.89335410498,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5241.8,
-              "valueUsd": 90999.61199070088
+              "price": 5915.88,
+              "valueUsd": 102701.89335410498
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 218.11393365176232,
+          "valueUsd": 250.49611188956646,
           "native": 0,
           "tokens": [
             {
               "symbol": "PONS",
               "address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
-              "amount": 347.9246030495491,
-              "price": 0.6269,
-              "valueUsd": 218.11393365176232
+              "amount": 414.5227732741461,
+              "price": 0.6043,
+              "valueUsd": 250.49611188956646
             }
           ]
         }
