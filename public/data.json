@@ -1,56 +1,22 @@
 {
-  "generatedAt": "2026-09-15T07:42:25.259Z",
-  "totalUsd": 111850.36876677451,
+  "generatedAt": "2026-09-15T13:31:27.587Z",
+  "totalUsd": 89285.57011755083,
   "byChain": [
     {
-      "chain": "base",
-      "valueUsd": 8897.979300779956,
-      "wallets": [
-        {
-          "wallet": "Brian",
-          "valueUsd": 8897.979300779956,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.000374,
-              "valueUsd": 8897.979300779956
-            }
-          ]
-        }
-      ]
-    },
-    {
       "chain": "robinhood",
-      "valueUsd": 102952.38946599455,
+      "valueUsd": 89285.57011755083,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 102701.89335410498,
+          "valueUsd": 89285.57011755083,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5915.88,
-              "valueUsd": 102701.89335410498
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 250.49611188956646,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "PONS",
-              "address": "0x39dbed3a2bd333467115de45665cc57f813c4571",
-              "amount": 414.5227732741461,
-              "price": 0.6043,
-              "valueUsd": 250.49611188956646
+              "price": 5143.067,
+              "valueUsd": 89285.57011755083
             }
           ]
         }
