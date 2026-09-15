@@ -1,22 +1,29 @@
 {
-  "generatedAt": "2026-09-15T21:15:32.648Z",
-  "totalUsd": 132545.49847925393,
+  "generatedAt": "2026-09-15T23:39:04.674Z",
+  "totalUsd": 162424.19612838858,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 12353.750893779541,
+      "valueUsd": 20116.272951915766,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 12353.750893779541,
+          "valueUsd": 20116.272951915766,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.007914,
-              "valueUsd": 12353.750893779541
+              "price": 0.007717,
+              "valueUsd": 12046.233971101432
+            },
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0003392,
+              "valueUsd": 8070.038980814335
             }
           ]
         }
@@ -24,26 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 120191.7475854744,
+      "valueUsd": 142307.9231764728,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 120191.7475854744,
+          "valueUsd": 104769.1667708421,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 6617.17,
-              "valueUsd": 114876.55051251595
-            },
+              "price": 6034.96,
+              "valueUsd": 104769.1667708421
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 37538.75640563071,
+          "native": 0,
+          "tokens": [
             {
-              "symbol": "Bucket",
-              "address": "0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad",
-              "amount": 1226961.466518568,
-              "price": 0.004332,
-              "valueUsd": 5315.197072958437
+              "symbol": "par",
+              "address": "0x507b6f349a80114097a67b8b4677367acc15b220",
+              "amount": 14796514.152790975,
+              "price": 0.002537,
+              "valueUsd": 37538.75640563071
             }
           ]
         }
