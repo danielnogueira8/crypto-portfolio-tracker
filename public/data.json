@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-16T18:48:11.481Z",
-  "totalUsd": 507255.7900397285,
+  "generatedAt": "2026-09-16T22:05:28.268Z",
+  "totalUsd": 155179.41336910974,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 19540.414654504006,
+      "valueUsd": 18147.801173296422,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 19540.414654504006,
+          "valueUsd": 18147.801173296422,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.007342,
-              "valueUsd": 11460.859118287768
+              "price": 0.006142,
+              "valueUsd": 9587.659589284047
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003396,
-              "valueUsd": 8079.5555362162395
+              "price": 0.0003598,
+              "valueUsd": 8560.141584012377
             }
           ]
         }
@@ -31,33 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 487715.37538522447,
+      "valueUsd": 137031.6121958133,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 94583.31413562062,
+          "valueUsd": 94437.83419581331,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5448.23,
-              "valueUsd": 94583.31413562062
+              "price": 5439.85,
+              "valueUsd": 94437.83419581331
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 393132.06124960387,
+          "valueUsd": 42593.778,
           "native": 0,
           "tokens": [
             {
-              "symbol": "UBIK",
-              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
-              "amount": 20047529.8954413,
-              "price": 0.01961,
-              "valueUsd": 393132.06124960387
+              "symbol": "ARC",
+              "address": "0xdad7e20952787599f3054d617fa11c224846ac70",
+              "amount": 7835500,
+              "price": 0.005436,
+              "valueUsd": 42593.778
             }
           ]
         }
