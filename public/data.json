@@ -1,22 +1,29 @@
 {
-  "generatedAt": "2026-09-17T16:47:30.815Z",
-  "totalUsd": 207371.39820200347,
+  "generatedAt": "2026-09-17T20:10:10.877Z",
+  "totalUsd": 120569.19956183505,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 16250.005914107285,
+      "valueUsd": 23225.172896178316,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 16250.005914107285,
+          "valueUsd": 23225.172896178316,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.01041,
-              "valueUsd": 16250.005914107285
+              "price": 0.008564,
+              "valueUsd": 13368.40063865656
+            },
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0004143,
+              "valueUsd": 9856.772257521754
             }
           ]
         }
@@ -24,40 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 191121.3922878962,
+      "valueUsd": 97344.02666565673,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 98165.90876075895,
+          "valueUsd": 95090.41067998484,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5225.14,
-              "valueUsd": 90710.38814855408
-            },
-            {
-              "symbol": "musebook",
-              "address": "0x91a2dae9699f0b82540b5886b0d8759c22820ba3",
-              "amount": 57438525.51775711,
-              "price": 0.0001298,
-              "valueUsd": 7455.520612204874
+              "price": 5477.44,
+              "valueUsd": 95090.41067998484
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 92955.48352713724,
+          "valueUsd": 2253.615985671891,
           "native": 0,
           "tokens": [
             {
-              "symbol": "OPEN",
-              "address": "0xf1b266c11f68bc936f218ad20712c4feb3e61e18",
-              "amount": 21398591.972177085,
-              "price": 0.004344,
-              "valueUsd": 92955.48352713724
+              "symbol": "DATACENTER",
+              "address": "0x080ad0136ede24cc46aefa11b7f648724bf71e18",
+              "amount": 18548279.717464123,
+              "price": 0.0001215,
+              "valueUsd": 2253.615985671891
             }
           ]
         }
