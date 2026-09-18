@@ -1,22 +1,29 @@
 {
-  "generatedAt": "2026-09-18T06:35:16.494Z",
-  "totalUsd": 113812.91730272499,
+  "generatedAt": "2026-09-18T11:45:42.549Z",
+  "totalUsd": 118972.9643929693,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 13376.205636694074,
+      "valueUsd": 23280.148711634272,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 13376.205636694074,
+          "valueUsd": 23280.148711634272,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.008569,
-              "valueUsd": 13376.205636694074
+              "price": 0.008459,
+              "valueUsd": 13204.495679868733
+            },
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.0004235,
+              "valueUsd": 10075.65303176554
             }
           ]
         }
@@ -24,19 +31,19 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 100436.71166603091,
+      "valueUsd": 95692.81568133502,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 100436.71166603091,
+          "valueUsd": 95692.81568133502,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5785.4,
-              "valueUsd": 100436.71166603091
+              "price": 5512.14,
+              "valueUsd": 95692.81568133502
             }
           ]
         }
