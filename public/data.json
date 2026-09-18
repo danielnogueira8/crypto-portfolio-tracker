@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-18T11:45:42.549Z",
-  "totalUsd": 118972.9643929693,
+  "generatedAt": "2026-09-18T16:16:13.129Z",
+  "totalUsd": 124700.56478289401,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 23280.148711634272,
+      "valueUsd": 23754.868786851068,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 23280.148711634272,
+          "valueUsd": 23754.868786851068,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.008459,
-              "valueUsd": 13204.495679868733
+              "price": 0.008914,
+              "valueUsd": 13914.750501282644
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0004235,
-              "valueUsd": 10075.65303176554
+              "price": 0.0004136,
+              "valueUsd": 9840.118285568424
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 95692.81568133502,
+      "valueUsd": 100945.69599604295,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 95692.81568133502,
+          "valueUsd": 91477.8903130985,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5512.14,
-              "valueUsd": 95692.81568133502
+              "price": 5269.35,
+              "valueUsd": 91477.8903130985
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 9467.80568294446,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "EXAMCN",
+              "address": "0x84baff039dfb04bc18801a9a6cc1558f7d84c630",
+              "amount": 14765760.578516,
+              "price": 0.0006412,
+              "valueUsd": 9467.80568294446
             }
           ]
         }
