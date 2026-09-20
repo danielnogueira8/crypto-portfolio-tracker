@@ -1,29 +1,22 @@
 {
-  "generatedAt": "2026-09-20T10:02:23.342Z",
-  "totalUsd": 105931.1510520684,
+  "generatedAt": "2026-09-20T14:20:07.517Z",
+  "totalUsd": 96352.22541636249,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 29929.45193364716,
+      "valueUsd": 20339.824885765407,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 29929.45193364716,
+          "valueUsd": 20339.824885765407,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.01331,
-              "valueUsd": 20776.90477586628
-            },
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.0003847,
-              "valueUsd": 9152.547157780882
+              "price": 0.01303,
+              "valueUsd": 20339.824885765407
             }
           ]
         }
@@ -31,33 +24,19 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 76001.69911842124,
+      "valueUsd": 76012.40053059708,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 75696.26810769833,
+          "valueUsd": 76012.40053059708,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4360.29,
-              "valueUsd": 75696.26810769833
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 305.4310107229099,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "WATCH",
-              "address": "0x71e52e7cd3c13b278cd05e80c9a63b843cbed960",
-              "amount": 3802203.544415659,
-              "price": 0.00008033,
-              "valueUsd": 305.4310107229099
+              "price": 4378.5,
+              "valueUsd": 76012.40053059708
             }
           ]
         }
