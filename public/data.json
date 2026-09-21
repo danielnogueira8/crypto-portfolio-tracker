@@ -1,29 +1,22 @@
 {
-  "generatedAt": "2026-09-20T23:08:43.640Z",
-  "totalUsd": 140940.91971652262,
+  "generatedAt": "2026-09-21T01:30:08.297Z",
+  "totalUsd": 142923.83431219208,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 25889.495593650077,
+      "valueUsd": 19356.395133038455,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 25889.495593650077,
+          "valueUsd": 19356.395133038455,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.01101,
-              "valueUsd": 17186.605678609147
-            },
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.0003658,
-              "valueUsd": 8702.889915040932
+              "price": 0.0124,
+              "valueUsd": 19356.395133038455
             }
           ]
         }
@@ -31,47 +24,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 115051.42412287256,
+      "valueUsd": 123567.43917915362,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 81810.07125828881,
+          "valueUsd": 91101.86459755829,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4712.46,
-              "valueUsd": 81810.07125828881
+              "price": 5247.69,
+              "valueUsd": 91101.86459755829
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 33241.35286458375,
+          "valueUsd": 32465.574581595323,
           "native": 0,
           "tokens": [
             {
               "symbol": "MACHINE",
               "address": "0xdec8eadbe856d73b32f9117c2cddc757233656aa",
-              "amount": 18625559.356483493,
-              "price": 0.0005556,
-              "valueUsd": 10348.360778462227
-            },
-            {
-              "symbol": "DARK",
-              "address": "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-              "amount": 4084026.7401351454,
-              "price": 0.001256,
-              "valueUsd": 5129.537585609743
+              "amount": 23334794.129567735,
+              "price": 0.0007048,
+              "valueUsd": 16446.36290251934
             },
             {
               "symbol": "Aria",
               "address": "0xa74a94c15b95f8d5f3abdd2db00f6c7384037b55",
-              "amount": 7133917.470085052,
-              "price": 0.00249,
-              "valueUsd": 17763.45450051178
+              "amount": 6420525.723076547,
+              "price": 0.002495,
+              "valueUsd": 16019.211679075983
             }
           ]
         }
