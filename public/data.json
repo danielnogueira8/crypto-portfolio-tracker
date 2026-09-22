@@ -1,22 +1,29 @@
 {
-  "generatedAt": "2026-09-22T17:44:18.621Z",
-  "totalUsd": 148793.7361091603,
+  "generatedAt": "2026-09-22T21:10:53.931Z",
+  "totalUsd": 144514.75123242565,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 20105.674944639944,
+      "valueUsd": 31487.74490411239,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 20105.674944639944,
+          "valueUsd": 31487.74490411239,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.01288,
-              "valueUsd": 20105.674944639944
+              "price": 0.01249,
+              "valueUsd": 19496.885097713734
+            },
+            {
+              "symbol": "BASEJUICE",
+              "address": "0xb200000000000000000000046390aed221043f01",
+              "amount": 23791388.504759245,
+              "price": 0.000504,
+              "valueUsd": 11990.85980639866
             }
           ]
         }
@@ -24,40 +31,40 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 128688.06116452036,
+      "valueUsd": 113027.00632831326,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 94276.90352254194,
+          "valueUsd": 74985.88157584677,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5430.58,
-              "valueUsd": 94276.90352254194
+              "price": 4319.37,
+              "valueUsd": 74985.88157584677
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 34411.157641978425,
+          "valueUsd": 38041.124752466494,
           "native": 0,
           "tokens": [
             {
-              "symbol": "UFG",
-              "address": "0xefab538cf3c29237a47c6afb145d50ddf204a0a3",
-              "amount": 13995955.457056955,
-              "price": 0.001758,
-              "valueUsd": 24604.889693506128
+              "symbol": "OPEN",
+              "address": "0xf1b266c11f68bc936f218ad20712c4feb3e61e18",
+              "amount": 14552859.028259445,
+              "price": 0.001486,
+              "valueUsd": 21625.548515993534
             },
             {
-              "symbol": "MACHINE",
-              "address": "0xdec8eadbe856d73b32f9117c2cddc757233656aa",
-              "amount": 22281908.540041573,
-              "price": 0.0004401,
-              "valueUsd": 9806.267948472298
+              "symbol": "UFG",
+              "address": "0xefab538cf3c29237a47c6afb145d50ddf204a0a3",
+              "amount": 11336723.920216134,
+              "price": 0.001448,
+              "valueUsd": 16415.576236472964
             }
           ]
         }
