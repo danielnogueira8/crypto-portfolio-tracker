@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-23T09:30:12.091Z",
-  "totalUsd": 95143.32403792223,
+  "generatedAt": "2026-09-23T14:24:24.399Z",
+  "totalUsd": 96295.15298202148,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 24431.56670796628,
+      "valueUsd": 22090.800974550923,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 24431.56670796628,
+          "valueUsd": 22090.800974550923,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.008494,
-              "valueUsd": 13259.130666131341
+              "price": 0.008703,
+              "valueUsd": 13585.379584099492
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0004696,
-              "valueUsd": 11172.43604183494
+              "price": 0.0003575,
+              "valueUsd": 8505.42139045143
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 70711.75732995594,
+      "valueUsd": 74204.35200747056,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 70711.75732995594,
+          "valueUsd": 70265.59570071388,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4073.17,
-              "valueUsd": 70711.75732995594
+              "price": 4047.47,
+              "valueUsd": 70265.59570071388
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 3938.7563067566753,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "SPIKE",
+              "address": "0x3213864f8e979facb96fc196a83142dcc94bdc8d",
+              "amount": 3587209751.144513,
+              "price": 0.000001098,
+              "valueUsd": 3938.7563067566753
             }
           ]
         }
