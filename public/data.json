@@ -1,29 +1,22 @@
 {
-  "generatedAt": "2026-09-24T12:07:33.147Z",
-  "totalUsd": 304947.3318345522,
+  "generatedAt": "2026-09-24T17:30:09.939Z",
+  "totalUsd": 86998.85675423416,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 23402.1780112736,
+      "valueUsd": 14573.492335648954,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 23402.1780112736,
+          "valueUsd": 14573.492335648954,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.008621,
-              "valueUsd": 13457.377616284237
-            },
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.000418,
-              "valueUsd": 9944.800394989365
+              "price": 0.009336,
+              "valueUsd": 14573.492335648954
             }
           ]
         }
@@ -31,33 +24,26 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 281545.15382327867,
+      "valueUsd": 72425.3644185852,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 59377.168702246265,
+          "valueUsd": 72425.3644185852,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 3420.27,
-              "valueUsd": 59377.168702246265
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 222167.9851210324,
-          "native": 0,
-          "tokens": [
+              "price": 3872.88,
+              "valueUsd": 67234.64788556329
+            },
             {
-              "symbol": "UBIK",
-              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
-              "amount": 10917345.706193238,
-              "price": 0.02035,
-              "valueUsd": 222167.9851210324
+              "symbol": "Bucket",
+              "address": "0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad",
+              "amount": 1237652.9644782809,
+              "price": 0.004194,
+              "valueUsd": 5190.7165330219095
             }
           ]
         }
