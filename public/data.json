@@ -1,29 +1,22 @@
 {
-  "generatedAt": "2026-09-26T06:33:43.048Z",
-  "totalUsd": 110694.79513137466,
+  "generatedAt": "2026-09-26T12:10:27.910Z",
+  "totalUsd": 138100.3144437095,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 21608.12282651746,
+      "valueUsd": 14370.562386673551,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 21608.12282651746,
+          "valueUsd": 14370.562386673551,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.008976,
-              "valueUsd": 14011.532476947836
-            },
-            {
-              "symbol": "BASEJUICE",
-              "address": "0xb200000000000000000000046390aed221043f01",
-              "amount": 23791388.504759245,
-              "price": 0.0003193,
-              "valueUsd": 7596.590349569627
+              "price": 0.009206,
+              "valueUsd": 14370.562386673551
             }
           ]
         }
@@ -31,19 +24,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 89086.6723048572,
+      "valueUsd": 123729.75205703596,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 89086.6723048572,
+          "valueUsd": 81038.9754961859,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 5131.61,
-              "valueUsd": 89086.6723048572
+              "price": 4668.043,
+              "valueUsd": 81038.9754961859
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 42690.77656085006,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "UFG",
+              "address": "0xefab538cf3c29237a47c6afb145d50ddf204a0a3",
+              "amount": 12637885.305165797,
+              "price": 0.003378,
+              "valueUsd": 42690.77656085006
             }
           ]
         }
