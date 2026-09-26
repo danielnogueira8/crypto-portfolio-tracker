@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-09-25T22:46:25.323Z",
-  "totalUsd": 310815.11412084824,
+  "generatedAt": "2026-09-26T01:25:11.456Z",
+  "totalUsd": 111666.59607060764,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 22373.216982531063,
+      "valueUsd": 21872.48849759427,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 22373.216982531063,
+          "valueUsd": 21872.48849759427,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.009047,
-              "valueUsd": 14122.363449080556
+              "price": 0.009028,
+              "valueUsd": 14092.704456537997
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003468,
-              "valueUsd": 8250.853533450507
+              "price": 0.000327,
+              "valueUsd": 7779.784041056272
             }
           ]
         }
@@ -31,54 +31,19 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 288441.8971383171,
+      "valueUsd": 89794.10757301337,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 85023.9974225527,
+          "valueUsd": 89794.10757301337,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4897.59,
-              "valueUsd": 85023.9974225527
-            }
-          ]
-        },
-        {
-          "wallet": "myomoto",
-          "valueUsd": 203417.89971576445,
-          "native": 0,
-          "tokens": [
-            {
-              "symbol": "DARK",
-              "address": "0xdc45b71d7203c2e8baafc43a19bca0eb993bb54e",
-              "amount": 9347446.938419579,
-              "price": 0.003353,
-              "valueUsd": 31341.98958452085
-            },
-            {
-              "symbol": "UBIK",
-              "address": "0x812486eaea648819853f8e372dc9f1516c7868bd",
-              "amount": 6931358.243640209,
-              "price": 0.01862,
-              "valueUsd": 129061.89049658069
-            },
-            {
-              "symbol": "UFG",
-              "address": "0xefab538cf3c29237a47c6afb145d50ddf204a0a3",
-              "amount": 15408839.84935369,
-              "price": 0.002696,
-              "valueUsd": 41542.23223385755
-            },
-            {
-              "symbol": "LITE",
-              "address": "0x0271cc806b4bd0282abf8beb1dcb0e797fec2293",
-              "amount": 14500368.480841383,
-              "price": 0.0001015,
-              "valueUsd": 1471.7874008054005
+              "price": 5172.36,
+              "valueUsd": 89794.10757301337
             }
           ]
         }
