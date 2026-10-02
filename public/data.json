@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-02T02:31:36.255Z",
-  "totalUsd": 82717.16896448689,
+  "generatedAt": "2026-10-02T09:36:43.319Z",
+  "totalUsd": 86227.28254967387,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 19625.227288496837,
+      "valueUsd": 20186.648635170503,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 19625.227288496837,
+          "valueUsd": 20186.648635170503,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.007881,
-              "valueUsd": 12302.237906731942
+              "price": 0.00782,
+              "valueUsd": 12207.016930674252
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003078,
-              "valueUsd": 7322.989381764895
+              "price": 0.0003354,
+              "valueUsd": 7979.631704496252
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 63091.94167599005,
+      "valueUsd": 66040.63391450336,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 63091.94167599005,
+          "valueUsd": 61721.340095108324,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 3634.25,
-              "valueUsd": 63091.94167599005
+              "price": 3555.3,
+              "valueUsd": 61721.340095108324
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 4319.2938193950395,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "PARLEY",
+              "address": "0xcf3d41f9671dc2e86ee4c0271b79ae6fdce36c05",
+              "amount": 6931943.218416047,
+              "price": 0.0006231,
+              "valueUsd": 4319.2938193950395
             }
           ]
         }
