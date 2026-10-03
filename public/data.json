@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-03T11:30:23.861Z",
-  "totalUsd": 98802.12994211553,
+  "generatedAt": "2026-10-03T15:14:03.120Z",
+  "totalUsd": 115400.20705976982,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 19030.722203093377,
+      "valueUsd": 18359.5378654858,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 19030.722203093377,
+          "valueUsd": 18359.5378654858,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.007459,
-              "valueUsd": 11643.496072365633
+              "price": 0.007122,
+              "valueUsd": 11117.439204637087
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003105,
-              "valueUsd": 7387.226130727746
+              "price": 0.0003044,
+              "valueUsd": 7242.098660848715
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 79771.40773902215,
+      "valueUsd": 97040.66919428403,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 79771.40773902215,
+          "valueUsd": 77122.59649129861,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4595.028,
-              "valueUsd": 79771.40773902215
+              "price": 4442.45,
+              "valueUsd": 77122.59649129861
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 19918.072702985413,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "ANYR",
+              "address": "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a",
+              "amount": 22170606.30341208,
+              "price": 0.0008984,
+              "valueUsd": 19918.072702985413
             }
           ]
         }
