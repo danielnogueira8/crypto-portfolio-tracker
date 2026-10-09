@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-09T15:12:51.136Z",
-  "totalUsd": 88962.1602049826,
+  "generatedAt": "2026-10-09T20:17:20.442Z",
+  "totalUsd": 100208.79005019226,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 15605.37618898309,
+      "valueUsd": 15454.371186646364,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 15605.37618898309,
+          "valueUsd": 15454.371186646364,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.005001,
-              "valueUsd": 7806.55903712301
+              "price": 0.005014,
+              "valueUsd": 7826.85203202055
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003278,
-              "valueUsd": 7798.81715186008
+              "price": 0.0003206,
+              "valueUsd": 7627.519154625814
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 73356.78401599951,
+      "valueUsd": 84754.4188635459,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 73356.78401599951,
+          "valueUsd": 73581.77447183519,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4225.53,
-              "valueUsd": 73356.78401599951
+              "price": 4238.49,
+              "valueUsd": 73581.77447183519
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 11172.644391710714,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "OP",
+              "address": "0xd577f45d1e43730955213a2ac3e513052d31fb03",
+              "amount": 16399008.354191566,
+              "price": 0.0006813,
+              "valueUsd": 11172.644391710714
             }
           ]
         }
