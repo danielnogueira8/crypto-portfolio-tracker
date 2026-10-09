@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-09T01:08:18.473Z",
-  "totalUsd": 89819.03873556733,
+  "generatedAt": "2026-10-09T07:56:15.774Z",
+  "totalUsd": 97327.45941497856,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 15662.992545123714,
+      "valueUsd": 15889.368904929808,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 15662.992545123714,
+          "valueUsd": 15889.368904929808,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.005012,
-              "valueUsd": 7823.7300328055435
+              "price": 0.005535,
+              "valueUsd": 8640.132827529666
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0003295,
-              "valueUsd": 7839.262512318171
+              "price": 0.0003047,
+              "valueUsd": 7249.236077400142
             }
           ]
         }
@@ -31,26 +31,19 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 74156.04619044362,
+      "valueUsd": 81438.09051004874,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 74156.04619044362,
+          "valueUsd": 81438.09051004874,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 4135.91,
-              "valueUsd": 71800.94723729628
-            },
-            {
-              "symbol": "Bucket",
-              "address": "0xbc9e7b1c5c0081f4ae85e71ec95703d3dec9ffad",
-              "amount": 1249389.3650649085,
-              "price": 0.001885,
-              "valueUsd": 2355.0989531473524
+              "price": 4691.033,
+              "valueUsd": 81438.09051004874
             }
           ]
         }
