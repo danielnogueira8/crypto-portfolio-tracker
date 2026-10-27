@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-27T05:28:30.518Z",
-  "totalUsd": 71593.80160005316,
+  "generatedAt": "2026-10-27T10:53:19.414Z",
+  "totalUsd": 70382.02136821345,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 9109.99384905725,
+      "valueUsd": 8914.698483522687,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 9109.99384905725,
+          "valueUsd": 8914.698483522687,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.00296,
-              "valueUsd": 4620.558838209179
+              "price": 0.002905,
+              "valueUsd": 4534.703859796509
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0001887,
-              "valueUsd": 4489.435010848069
+              "price": 0.0001841,
+              "valueUsd": 4379.9946237261765
             }
           ]
         }
@@ -31,19 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 62483.80775099591,
+      "valueUsd": 61467.32288469077,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 62483.80775099591,
+          "valueUsd": 60852.800549934,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 3599.22,
-              "valueUsd": 62483.80775099591
+              "price": 3505.27,
+              "valueUsd": 60852.800549934
+            }
+          ]
+        },
+        {
+          "wallet": "myomoto",
+          "valueUsd": 614.5223347567701,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "trader",
+              "address": "0xf051be89d1a65b3547a64917695b320eba894f63",
+              "amount": 2906917382.955393,
+              "price": 2.114e-7,
+              "valueUsd": 614.5223347567701
             }
           ]
         }
