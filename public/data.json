@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-29T16:50:27.610Z",
-  "totalUsd": 75099.99899425503,
+  "generatedAt": "2026-10-29T21:42:42.144Z",
+  "totalUsd": 70886.20528884437,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 10155.73703364795,
+      "valueUsd": 9487.242878824516,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 10155.73703364795,
+          "valueUsd": 9487.242878824516,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.003319,
-              "valueUsd": 5180.957697302792
+              "price": 0.002938,
+              "valueUsd": 4586.216846844111
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0002091,
-              "valueUsd": 4974.779336345157
+              "price": 0.000206,
+              "valueUsd": 4901.026031980404
             }
           ]
         }
@@ -31,33 +31,33 @@
     },
     {
       "chain": "robinhood",
-      "valueUsd": 64944.261960607095,
+      "valueUsd": 61398.96241001986,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 64062.90743176858,
+          "valueUsd": 60802.108255872256,
           "native": 0,
           "tokens": [
             {
               "symbol": "QUOTRON",
               "address": "0x5a86828efd322bfb16d93cfed16ee9bc14940d7f",
               "amount": 17.360374678679246,
-              "price": 3690.18,
-              "valueUsd": 64062.90743176858
+              "price": 3502.35,
+              "valueUsd": 60802.108255872256
             }
           ]
         },
         {
           "wallet": "myomoto",
-          "valueUsd": 881.3545288385124,
+          "valueUsd": 596.854154147606,
           "native": 0,
           "tokens": [
             {
-              "symbol": "KICK",
-              "address": "0x42771df1475e16d24bad98af0e9177845c4ef45f",
-              "amount": 2491813765.446741,
-              "price": 3.537e-7,
-              "valueUsd": 881.3545288385124
+              "symbol": "D4LIFE",
+              "address": "0x42f7c412376abd300f7a82a3c52b8c1c8e641fa8",
+              "amount": 14173691.620698312,
+              "price": 0.00004211,
+              "valueUsd": 596.854154147606
             }
           ]
         }
