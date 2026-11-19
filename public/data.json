@@ -1,29 +1,49 @@
 {
-  "generatedAt": "2026-11-18T19:20:27.218Z",
-  "totalUsd": 2746.3838813251796,
+  "generatedAt": "2026-11-19T01:24:34.909Z",
+  "totalUsd": 7687.9434709561765,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 2746.3838813251796,
+      "valueUsd": 2756.961454065051,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 2746.3838813251796,
+          "valueUsd": 2756.961454065051,
           "native": 0,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.0006864,
-              "valueUsd": 1071.4701305901287
+              "price": 0.0006694,
+              "valueUsd": 1044.9331372625759
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.0000704,
-              "valueUsd": 1674.9137507350508
+              "price": 0.00007196,
+              "valueUsd": 1712.028316802475
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chain": "robinhood",
+      "valueUsd": 4930.982016891126,
+      "wallets": [
+        {
+          "wallet": "myomoto",
+          "valueUsd": 4930.982016891126,
+          "native": 0,
+          "tokens": [
+            {
+              "symbol": "BRAIN",
+              "address": "0x42b96dbc55e79e930d866c1ee486a342366546bc",
+              "amount": 20511572.449630305,
+              "price": 0.0002404,
+              "valueUsd": 4930.982016891126
             }
           ]
         }
