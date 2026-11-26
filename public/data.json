@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-11-26T00:12:04.803Z",
-  "totalUsd": 2726.142929059166,
+  "generatedAt": "2026-11-26T08:48:51.801Z",
+  "totalUsd": 2725.591822410628,
   "byChain": [
     {
       "chain": "base",
-      "valueUsd": 2726.142929059166,
+      "valueUsd": 2725.591822410628,
       "wallets": [
         {
           "wallet": "Brian",
-          "valueUsd": 2726.142929059166,
+          "valueUsd": 2725.591822410628,
           "native": 4e-18,
           "tokens": [
             {
               "symbol": "STONKEX",
               "address": "0x5ab000ff9b9ffe0349ce5ffa5fd86f217c3680f5",
               "amount": 1560999.6075031012,
-              "price": 0.0004817,
-              "valueUsd": 751.9335109342438
+              "price": 0.0004847,
+              "valueUsd": 756.6165097567532
             },
             {
               "symbol": "BASEJUICE",
               "address": "0xb200000000000000000000046390aed221043f01",
               "amount": 23791388.504759245,
-              "price": 0.00008298,
-              "valueUsd": 1974.209418124922
+              "price": 0.00008276,
+              "valueUsd": 1968.975312653875
             }
           ]
         }
